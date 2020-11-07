@@ -176,7 +176,7 @@ describe('Dashboard', () => {
     expect(getByText('Sell')).toBeTruthy();
 
     expect(getByText('Website Hosting')).toBeTruthy();
-    expect(getByText('R$ 50,00')).toBeTruthy();
+    expect(getByText('- R$ 50,00')).toBeTruthy();
     expect(getByText('Hosting')).toBeTruthy();
   });
 
